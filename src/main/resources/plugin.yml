@@ -1,0 +1,36 @@
+name: YouTubersTasks
+version: '${project.version}'
+main: com.lairon.plugin.youtuberstasks.YouTubersTasks
+api-version: 1.16
+depend: [ Citizens ]
+authors: [ Lairon1 ]
+description: Майнкрафт, Но Ютуберы Контролируют Мою Игру…
+website: https://vk.com/mysouliscry
+commands:
+  UniTaskStart:
+    description: "Запускает испытание с Юни(телепортирует на место) через 5 сек, еще через 5 секунд запускает слова Юни"
+  RhymeTaskStart:
+    description: "Запускает испытание с Раймом, через 5 секунд начинаются партиклы, и еще через 5 секунд телепортирует на паркур и пишет сообщения Райма"
+  RhymeTaskEnd:
+    description: "Запускает салют и выдает Земляное яблоко. Задержка 5 секунд"
+  FelixTaskStart:
+    description: "Запускает испытание с Феликсом (Задержка 5 секунд)"
+  FelixTaskEnd:
+    description: "Завершает испытание с феликсом и телепортирует обратно (Задержка 5 секунд)"
+  ShaggyTaskStart:
+    description: "Запускает испытание с Шегги (Задержка 5 секунд)"
+    #  Кисточку нужно будет взять из гм. Чтобы дать ей красивое ися можно использовать - /rename &dЯ слежу за тобой..
+  Rename:
+    description: "Используется для переименования предмета"
+  ShaggyGiveArmor:
+    description: "Получить радужную броню"
+  DomerTaskStart:
+    description: "Запускает испытание с домером (Задержка 5 секунд)"
+  GradussTaskStart:
+    description: "Запускает испытание с градусом (Задержка 5 секунд)"
+  GradussTaskEnd:
+    description: "Запускает салют и выдает Утиная помощь. (Задержка 5 секунд)"
+  VladusTaskStart:
+    description: "Запускает испытание с владусом (Задержка 5 секунд)"
+  ZimanTaskStart:
+    description: "Запускает испытание с зиманом (Задержка 5 секунд) "
